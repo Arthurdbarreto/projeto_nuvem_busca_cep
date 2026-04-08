@@ -1,0 +1,29 @@
+body {
+  background: #f4f6f8;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+#cep-tab, #rua-tab, #log-tab {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.btn-small {
+  margin: 10px 5px;
+  border-radius: 8px;
+}
+
+#lista-ruas li:hover {
+  background: #f1f1f1;
+  cursor: pointer;
+}
+
+.tabs .tab a.active {
+  background-color: #e1f5fe;
+}
